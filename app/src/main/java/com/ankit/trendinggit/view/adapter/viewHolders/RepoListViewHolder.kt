@@ -12,7 +12,8 @@ import kotlinx.android.synthetic.main.view_repo_list_item.view.*
 import org.jetbrains.anko.bundleOf
 import org.jetbrains.anko.sdk27.coroutines.onClick
 
-class RepoListViewHolder constructor(private val dataBinding: ViewDataBinding, private val repoListViewModel: RepoListViewModel)
+class RepoListViewHolder constructor(private val dataBinding: ViewDataBinding,
+                                     private val repoListViewModel: RepoListViewModel)
     : RecyclerView.ViewHolder(dataBinding.root) {
 
     val avatarImage = itemView.item_avatar
